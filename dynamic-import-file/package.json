@@ -1,0 +1,18 @@
+{
+  "name": "bundle-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack-cli",
+    "run-build": "node dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "raw-loader": "^4.0.2",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0"
+  }
+}
